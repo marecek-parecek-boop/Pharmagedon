@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="home.html">
+    <style>
+
+        .logo {
+            max-width: 170px;
+        }
+        .nadpis {
+            margin: 100px;
+        }
+        .mapa {
+          margin-bottom: 50px;
+        }
+        .email_obrazek {
+          height: 600px;
+        }
+        .formular {
+          margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">
+            <img src="img/horizontalni_logo.png" alt="logo" class="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Domů</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Generator_QR_kodu.html">Generátor QR kódů</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Seznam_leciv.html">Seznam léčiv</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Reference.html">Reference</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Kontakt.html">Kontakt</a>
+              </li>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">O vývojáři</a></li>
+                  <li><a class="dropdown-item" href="#">Telefonní číslo</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.0779463560257!2d14.496211176359536!3d49.89733992703463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b8526c2cddd11%3A0x318264b4d3fd73e3!2zWsOha2xhZG7DrSDFoWtvbGEgSsOtbG92w6kgdSBQcmFoeQ!5e0!3m2!1scs!2scz!4v1716199776831!5m2!1scs!2scz" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="container">
+      <div class="row">
+         <form class="col-lg-6 col-md-12 formular">
+          <div class="mb-3">
+            <label for="exampleInputname1" class="form-label">Jméno</label>
+            <input type="text" class="form-control" id="exampleInputname1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputsurname1" class="form-label">Příjmení</label>
+            <input type="text" class="form-control" id="exampleInputsurname1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputemail1" class="form-label">Emailová adresa</label>
+            <input type="email" class="form-control" id="exampleInputemail1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Obsah Emailu</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Odeslat</button>
+         </form>
+          <img class="email_obrazek col-lg-6 col-md-12" src="img/email_obr..png" alt="email">
+      </div>
+    </div>
+    <footer class="text-center text-white" style="background-color: #3f51b5">
+      <div class="container">
+        <section class="mt-5">
+          <div class="row text-center d-flex justify-content-center pt-5">
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="home.html" class="text-white">Domů</a>
+              </h6>
+            </div>
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="Generator_QR_kodu.html" class="text-white">Generátor QR kódů</a>
+              </h6>
+            </div>
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="Seznam_leciv.html" class="text-white">Seznam léčiv</a>
+              </h6>
+            </div>
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="Reference.html" class="text-white">Reference</a>
+              </h6>
+            </div>
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="Kontakt.html" class="text-white">Kontakt</a>
+              </h6>
+            </div>
+          </div>
+        </section>
+        <hr class="my-5" />
+        <section class="mb-5">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <p>
+                Pharmagedon: Inovujeme zdraví. Zlepšujeme životy.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div
+           class="text-center p-3"
+           style="background-color: rgba(0, 0, 0, 0.2)"
+           >
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+           >MDBootstrap.com</a
+          >
+      </div>
+    </footer>
+</body>
+</html>
